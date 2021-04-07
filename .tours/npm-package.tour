@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "npm-package",
+  "steps": [
+    {
+      "file": "package.json",
+      "description": "## Main\r\n\r\nEs el main principal del proyecto",
+      "line": 5
+    },
+    {
+      "file": "package.json",
+      "description": "## Licencia\r\n\r\nMIT permite compartir la aplicación",
+      "line": 15
+    },
+    {
+      "file": "bin/global.js",
+      "description": "## Ejecutar el paquete dentro de bash\r\n\r\nEsta línea indica que este archivo se va a ejecutar dentro del sistema bash ",
+      "line": 1
+    },
+    {
+      "file": "bin/global.js",
+      "description": "## Requerimos el modulo \r\n\r\nRequerimos el archivo que esporta el modulo random messages",
+      "line": 5
+    },
+    {
+      "file": "bin/global.js",
+      "description": "## Iniciamos la función\r\n\r\nLlamamos a randomMsg()",
+      "line": 7
+    },
+    {
+      "file": "package.json",
+      "description": "## bin\r\n\r\n- Creamos el apartado bin con la configuración para que la aplicación se pueda llamar desde la terminal\r\n- Añadimos el path del archivo con una llave que lo identifique\r\n- De esta forma resgistramos que el paquete que estamos llamando se va a llamar como la llave",
+      "line": 16
+    },
+    {
+      "file": "package.json",
+      "description": "## preferGlobal\r\n\r\n- Esta apartado indica que el paquete se ejecuta de forma global",
+      "line": 19
+    }
+  ]
+}
