@@ -15,6 +15,7 @@
 
 ##  Login desde terminal
 
+- Necestamos una cuenta en NPM
 - npm adduser
 - usuario
 - contraseña
@@ -33,3 +34,10 @@
 - El README debe estar en ingles
 - Conectarlo con un repositorio
 - Pruebas unitarias
+
+## Despues de conectarlo a git
+
+- npm init
+- va a reconocer que ya tiene una configuración de github
+- Automaticamente va a generar la configuración que falta para generar el proyecto 
+- npm version [major] [minor] [patch]:
