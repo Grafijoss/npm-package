@@ -40,4 +40,5 @@
 - npm init
 - va a reconocer que ya tiene una configuración de github
 - Automaticamente va a generar la configuración que falta para generar el proyecto 
-- npm version [major] [minor] [patch]:
+- npm version [major] [minor] [patch]: actualiza la versión en el package
+- npm publish
